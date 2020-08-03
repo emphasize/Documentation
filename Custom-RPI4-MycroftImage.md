@@ -30,6 +30,7 @@
 4. Add neon apt repository:
    ```
    echo "deb https://archive.neon.kde.org/unstable bionic main" > /etc/apt/sources.list.d/neon.list
+   echo "deb-src https://archive.neon.kde.org/unstable bionic main" > /etc/apt/sources.list.d/neon.list
    ```
    
 5. Mycroft-Core Installation:
